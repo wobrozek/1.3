@@ -1,0 +1,29 @@
+przerzutniki to układy sekwencyjne
+różnią się od układów kombinacyjnych tym że ich wyjście może zależeć od poprzedniego stanu układu
+muszą zawierać urządzenie pamiętające ich stan(przerzutnik RS jest wyjątkiem)
+
+wejście asynchroniczne - dane przemieszczają się tylko w jedna strone
+stan wewnętrzny - ostatni stan układu
+wejście zegarowe- aktywuje się w momencie zmiany sygnału na przeciwny(tzw zbocze synału)[przydatne gdy sterujemy grupą przeżutników i chcemy by ich stan zmieniał się tylko w wybranych momentach]
+
+Rodzaje:
+
+-Przerzutnik typu RS:
+jedyny asynchroniczny(przez brak wejścia zegarowego)
+w momecie podania dwoch stanow danych jednocześnie następuje zjawisko hazardu(losowość wykonania operacji)
+porównuje przez wybrane bramki logiczne zmienną z obecnego stanu z zmienną z poprzedniego stanu na drugim wyjściu 
+
+-Przerzutnik typu D (flip flop)
+
+-Przerzutnik typu T
+
+-Przerzutnik typu JK
+
+-Przerzutnik typu JK-MS 
+dwa połączone przełączniki JK przekazujące sobie informacje w zależności od wejścia zegarowego
+
+zastosowanie:
+
+-budowy rejestrów przesuwających 
+-liczników 
+-układów sterowania wskaźników alfanumerycznych

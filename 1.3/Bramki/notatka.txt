@@ -1,0 +1,9 @@
+AND-koniukcja
+OR-alternatywa
+NOT-negacja 
+NAND- negacja koniukcji
+NOR-negacja alternatywy
+XOR- alternatywa rozłączna
+XNOR- negacja alternatywy rozłącznej
+
+symulator - https://www.edukator.pl/tik_edukator/logic-gate-simulator/index.html

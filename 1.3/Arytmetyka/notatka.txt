@@ -1,0 +1,17 @@
+wyjaśnienie liczb ujemnych - https://www.youtube.com/watch?v=ZD0wMdJa-Ns
+zamiana systemów liczbowych - https://www.youtube.com/watch?v=VUHwfugYFEA
+
+mnożenie licz binarnych:
+polega na mnożeniu po koleju wszyskich liczb z przesunięciem o jeden bit a następnie dodaniu ich
+np.
+
+ 1011
+*1101
+------
+	1011
+  +    0000
+      1011
+     1011
+   10001111
+
+Dzielenie liczb binarnych -https://www.youtube.com/watch?v=59SLPMkHnZg
